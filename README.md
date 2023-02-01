@@ -1,2 +1,3 @@
-# ML-Algorithm-Study
-In which I keep notes on every training algorithm I've ever studied about.
+# 🤖 ML Algorithm Study
+
+My notes on various ML Algorithms ~
