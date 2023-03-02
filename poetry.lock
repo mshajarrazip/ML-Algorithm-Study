@@ -300,6 +300,19 @@ python-versions = ">=3.5"
 traitlets = "*"
 
 [[package]]
+name = "mlscratch"
+version = "0.1.0"
+description = "Machine learning from scratch"
+category = "main"
+optional = false
+python-versions = ">=3.7"
+
+[package.dependencies]
+numpy = "*"
+scikit-learn = "*"
+scipy = "*"
+
+[[package]]
 name = "numpy"
 version = "1.24.1"
 description = "Fundamental package for array computing in Python"
@@ -659,7 +672,7 @@ python-versions = "*"
 [metadata]
 lock-version = "1.1"
 python-versions = "~3.10"
-content-hash = "585dc83101e35bd3a747eeafdd2e9e730a3c07ba6ba70092a3e3f08636c96b40"
+content-hash = "fadcca2efec1d956f2a3d11c2ef3e7f3b380a17b34c1dd6f3bcda9c246a8bc1c"
 
 [metadata.files]
 appnope = [
@@ -981,6 +994,10 @@ matplotlib = [
 matplotlib-inline = [
     {file = "matplotlib-inline-0.1.6.tar.gz", hash = "sha256:f887e5f10ba98e8d2b150ddcf4702c1e5f8b3a20005eb0f74bfdbd360ee6f304"},
     {file = "matplotlib_inline-0.1.6-py3-none-any.whl", hash = "sha256:f1f41aab5328aa5aaea9b16d083b128102f8712542f819fe7e6a420ff581b311"},
+]
+mlscratch = [
+    {file = "mlscratch-0.1.0-py3-none-any.whl", hash = "sha256:7b40df5c652e2d20c5d9228ed82ce17a0fe914ec561fb9d066d98d6f830b24ee"},
+    {file = "mlscratch-0.1.0.tar.gz", hash = "sha256:f1c278dac12a64ef851fb4561b3032277d8f47e69d54656cc332b71a5e353e2c"},
 ]
 numpy = [
     {file = "numpy-1.24.1-cp310-cp310-macosx_10_9_x86_64.whl", hash = "sha256:179a7ef0889ab769cc03573b6217f54c8bd8e16cef80aad369e1e8185f994cd7"},
