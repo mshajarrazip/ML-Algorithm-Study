@@ -12,8 +12,6 @@ numpy = "^1.24.1"
 matplotlib = "^3.6.3"
 scikit-learn = "^1.2.1"
 seaborn = "^0.12.2"
-mlscratch = "0.1.0"
-
 
 [build-system]
 requires = ["poetry-core"]
